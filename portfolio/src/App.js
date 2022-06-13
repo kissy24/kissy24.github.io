@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Button } from "@mui/material";
+
+import Header from './components/header';
+import Main from './components/main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Button variant="outlined">Material-UI ボタン</Button>
-      </header>
+      <Header />
+      <Main />
     </div>
   );
 }
