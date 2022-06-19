@@ -10,13 +10,10 @@ export default function Profile() {
                 <Grid container spacing={2}>
                     <Grid item xs={4}>
                         <h1>Profile</h1>
+                        <img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="profile"></img>
                     </Grid>
                     <Grid item xs={8}>
-                        名前:
-                        <br />
-                        性別:
-                        <br />
-                        趣味:
+                        名前: kissy24
                         <br />
                         自己紹介:
                     </Grid>
