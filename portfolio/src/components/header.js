@@ -1,10 +1,10 @@
 import React from "react";
+import './header.css';
 
 export default function Header() {
     return (
-        <header className="App-header">
-            <img src={`${process.env.PUBLIC_URL}/images/header.jpg`} alt="header"></img>
-            <h1>Portfolio</h1>
-        </header>
+        <header className="header">
+            <p className="title" >kissy24.github.io</p>
+        </header >
     );
 }
