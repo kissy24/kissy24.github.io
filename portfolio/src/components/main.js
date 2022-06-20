@@ -1,8 +1,8 @@
 import React from "react";
 
-import Profile from "./contents/profile";
+import About from "./contents/about";
 import Skill from "./contents/skill";
-import Works from "./contents/works";
+import Career from "./contents/career";
 import Contact from "./contents/contact";
 
 import CssBaseline from '@mui/material/CssBaseline';
@@ -51,20 +51,20 @@ export default function Main() {
                 <Box sx={{ width: '100%' }}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered="True">
-                            <Tab label="Profile" {...a11yProps(0)} />
+                            <Tab label="About" {...a11yProps(0)} />
                             <Tab label="Skill" {...a11yProps(1)} />
-                            <Tab label="Works" {...a11yProps(2)} />
+                            <Tab label="Career" {...a11yProps(2)} />
                             <Tab label="Contact" {...a11yProps(3)} />
                         </Tabs>
                     </Box>
                     <TabPanel value={value} index={0}>
-                        <Profile />
+                        <About />
                     </TabPanel>
                     <TabPanel value={value} index={1}>
                         <Skill />
                     </TabPanel>
                     <TabPanel value={value} index={2}>
-                        <Works />
+                        <Career />
                     </TabPanel>
                     <TabPanel value={value} index={3}>
                         <Contact />
