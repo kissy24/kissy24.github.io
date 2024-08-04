@@ -1,6 +1,11 @@
 import kissy24Image from '/kissy24.svg'
 import './App.css'
+
 import githubImage from './img/github-mark.svg'
+import xImage from './img/x.svg'
+import qiitaImage from './img/qiita-icon.png'
+import youtrustImage from './img/youtrust.png'
+import sizuImage from './img/sizu.svg'
 
 function App() {
   return (
@@ -20,16 +25,28 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/kissy_24" className="flex items-center p-3 text-base font-bold rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow">X(Twitter) </a>
+            <a href="https://twitter.com/kissy_24" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+              <img src={xImage} className="w-1/6" alt="x" />
+              <span className="w-8 ms-4">X(Twitter)</span>
+            </a>
           </li>
           <li>
-            <a href="https://youtrust.jp/users/kissy24" className="flex items-center p-3 text-base font-bold rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow">Youtrust</a>
+            <a href="https://youtrust.jp/users/kissy24" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+              <img src={youtrustImage} className="w-1/6" alt="x" />
+              <span className="w-8 ms-4">Youtrust</span>
+            </a>
           </li>
           <li>
-            <a href="https://qiita.com/kissy24" className="flex items-center p-3 text-base font-bold rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow">Qiita</a>
+            <a href="https://qiita.com/kissy24" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+              <img src={qiitaImage} className="w-1/6" alt="x" />
+              <span className="w-8 ms-4">Qiita</span>
+            </a>
           </li>
           <li>
-            <a href="https://sizu.me/kissy24" className="flex items-center p-3 text-base font-bold rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow">しずかなインターネット</a>
+            <a href="https://sizu.me/kissy24" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+              <img src={sizuImage} className="w-1/6" alt="x" />
+              <span className="w-8 ms-4">しずかなインターネット</span>
+            </a>
           </li>
         </ul>
       </div>
